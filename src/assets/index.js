@@ -31,7 +31,7 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import OU from "./company/OU.png";
+import oklahoma from "./company/oklahoma.png";
 import youversion from "./company/youversion.png";
 import affirm from "./company/affirm.svg";
 import frank from "./company/frank.png";
@@ -72,7 +72,7 @@ export {
   shopify,
   starbucks,
   tesla,
-  OU,
+  oklahoma,
   youversion,
   affirm,
   frank,
