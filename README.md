@@ -1,20 +1,14 @@
-# Build and Deploy a Fantastic 3D Portfolio Website with Three.js and React.js
-![3D Portfolio](https://i.ibb.co/9ykhLtM/Thumbnail.png)
+# Jedd Soh | Software Engineer
+> My software development portfolio.
+> [Visit the Website](https://jeddsoh.github.io/)
 
-## Introduction
-The most impressive websites in the world use 3D graphics and animations to bring their content to life. Learn how to build your own ThreeJS 3D Developer Portfolio today! 
- 
-In this course, you'll learn the following:
-- ThreeJS - a powerful 3D graphics library for rendering and animating the 3D model
-- React Three Fiber - a popular library for creating 3D graphics with ThreeJS in React
-- TailwindCSS - a popular utility-first CSS styling framework
-- Framer Motion - the most popular library used to bring your React website to life with animations
-You'll also learn how to:
-- Load, create and customize stunning 3D models and geometries with various lights, as well as understand the 3D world with a camera and positioning of an object in space.
-- Make your code reusable and scalable using Higher Order Components (HOCs) and other industry-standard best practices
-- Implement sending emails through a form on the website
-- Ensure responsiveness across all devices and improve your site's performance using Suspense and Preload.
-
-## Want to land your dream programming job in 3 - 6 months?
-⭐ JSM Masterclass Experience - https://jsmastery.pro/masterclass
-Become a Software Engineer. Guaranteed.
+## Tech Stack
+> What I used to build this website.
+1. [Visual Studio Code](https://code.visualstudio.com/) `for writing code`
+2. [Github Pages](https://pages.github.com/) `for hosting`
+3. [ViteJS](https://vitejs.dev/) `for build speed`
+4. [TailwindCSS](https://tailwindcss.com/) `for styling`
+5. [ReactJS](https://react.dev/) `for components`
+6. [ThreeJS](https://threejs.org/) `for 3D visuals`
+7. [EmailJS](https://www.emailjs.com/) `for server-less emails`
+9. [Framer Motion](https://www.framer.com/motion/) `for animation`
