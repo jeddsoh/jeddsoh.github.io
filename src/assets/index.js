@@ -1,4 +1,8 @@
 import logo from "./logo.svg";
+import uxui from "./uxui.svg";
+import visual from "./visual.svg";
+import backenddev from "./backenddev.svg";
+import frontend from "./frontend.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -8,10 +12,12 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
+import githublogo from "./tech/githublogo.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
+import adobe from "./tech/adobe.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
@@ -25,6 +31,10 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import OU from "./company/OU.png";
+import youversion from "./company/youversion.png";
+import affirm from "./company/affirm.svg";
+import frank from "./company/frank.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -32,11 +42,16 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  uxui,
+  visual,
+  backenddev,
+  frontend,
   backend,
   creator,
   mobile,
   web,
   github,
+  githublogo,
   menu,
   close,
   css,
@@ -52,10 +67,15 @@ export {
   tailwind,
   typescript,
   threejs,
+  adobe,
   meta,
   shopify,
   starbucks,
   tesla,
+  OU,
+  youversion,
+  affirm,
+  frank,
   carrent,
   jobit,
   tripguide,
