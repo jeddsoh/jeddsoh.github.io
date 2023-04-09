@@ -1,146 +1,147 @@
 import {
-  backenddev,
-  uxui,
-  visual,
-  frontend,
-  webflow,
-  githublogo,
-  adobe,
-  oklahoma,
-  frank,
-  youversion,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  starbucks,
-  tripguide,
-  threejs,
-} from "../assets";
-
-export const navLinks = [
-  {
-    id: "about",
-    title: "About",
-  },
-  {
-    id: "work",
-    title: "Work",
-  },
-  {
-    id: "contact",
-    title: "Contact",
-  },
-];
-
-const services = [
-  {
-    title: "Front End Developer",
-    icon: frontend,
-  },
-  {
-    title: "Back End Developer",
-    icon: backenddev,
-  },
-  {
-    title: "UX/UI Designer",
-    icon: uxui,
-  },
-  {
-    title: "Visual Designer",
-    icon: visual,
-  },
-];
-
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "githublogo",
-    icon: githublogo,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
+    backenddev,
+    uxui,
+    visual,
+    frontend,
+    javascript,
+    typescript,
+    html,
+    css,
+    reactjs,
+    adobe,
+    tailwind,
+    nodejs,
+    mongodb,
+    git,
+    figma,
+    githublogo,
+    OU,
+    affirm,
+    frank,
+    youversion,
+    carrent,
+    jobit,
+    tripguide,
+    threejs,
+  } from "../assets";
+  
+  export const navLinks = [
     {
-    name: "figma",
-    icon: figma,
-  },
+      id: "about",
+      title: "About",
+    },
     {
-    name: "adobe",
-    icon: adobe,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "webflow",
-    icon: webflow,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-];
-
-const experiences = [
-  {
-    title: "UX/UI Designer",
-    company_name: "affirm",
-    icon: starbucks,
-    iconBg: "#fff",
-    date: "2022 • San Francisco (Remote)",
-    points: [
-      "Designed internal tooling to decrease servicing errors, improve the support agent experience, and lower customer frustration.",
-      "This was a 6-month contract position to complete new internal software projects.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Frank – Digital Marketing Agency",
-    icon: frank,
-    iconBg: "#fff",
-    date: "2022 • Oklahoma City",
-    points: [
-      "Designed, developed, and maintained websites sites for various clients.",
-      "Led operations and introduced new processes and tools company-wide, such as Figma and Notion implementation.",
-      "Migrated difficult Wordpress sites into client-friendly Webflow builds.",
-    ],
-  },
- {
-    title: "Mobile Design Intern",
-    company_name: "YouVersion (The Bible App)",
-    icon: youversion,
+      id: "work",
+      title: "Work",
+    },
+    {
+      id: "contact",
+      title: "Contact",
+    },
+  ];
+  
+  const services = [
+    {
+      title: "Front End Developer",
+      icon: frontend,
+    },
+    {
+      title: "Back End Developer",
+      icon: backenddev,
+    },
+    {
+      title: "UX/UI Designer",
+      icon: uxui,
+    },
+    {
+      title: "Visual Designer",
+      icon: visual,
+    },
+  ];
+  
+  const technologies = [
+    {
+      name: "HTML 5",
+      icon: html,
+    },
+    {
+      name: "CSS 3",
+      icon: css,
+    },
+    {
+      name: "JavaScript",
+      icon: javascript,
+    },
+    {
+      name: "React JS",
+      icon: reactjs,
+    },
+    {
+      name: "githublogo",
+      icon: githublogo,
+    },
+    {
+      name: "Tailwind CSS",
+      icon: tailwind,
+    },
+    {
+      name: "figma",
+      icon: figma,
+    },
+    {
+      name: "Adobe",
+      icon: adobe,
+    },
+    {
+      name: "TypeScript",
+      icon: typescript,
+    },
+    {
+      name: "Node JS",
+      icon: nodejs,
+    },
+    {
+      name: "MongoDB",
+      icon: mongodb,
+    },
+    {
+      name: "Three JS",
+      icon: threejs,
+    },
+    {
+      name: "git",
+      icon: git,
+    },
+  ];
+  
+  const experiences = [
+    {
+      title: "UX/UI Designer",
+      company_name: "Affirm",
+      icon: affirm,
+      iconBg: "#fff",
+      date: "2022 • San Francisco (Remote)",
+      points: [
+        "Designed internal tooling to decrease servicing errors, improve the support agent experience, and lower customer frustration.",
+        "This was a 6-month contract position to complete new internal software projects.",
+      ],
+    },
+    {
+      title: "Web Developer",
+      company_name: "Frank – Digital Marketing Agency",
+      icon: frank,
+      iconBg: "#fff",
+      date: "2022 • Oklahoma City",
+      points: [
+        "Designed, developed, and maintained websites sites for various clients.",
+        "Led operations and introduced new processes and tools company-wide, such as Figma and Notion implementation.",
+        "Migrated difficult Wordpress sites into client-friendly Webflow builds.",
+      ],
+    },
+    {
+      title: "Mobile Design Intern",
+      company_name: "YouVersion (The Bible App)",
+      icon: youversion,
       iconBg: "#fff",
       date: "2021 • Edmond, OK",
       points: [
@@ -153,7 +154,7 @@ const experiences = [
     {
       title: "Web Designer",
       company_name: "University of Oklahoma",
-      icon: oklahoma,
+      icon: OU,
       iconBg: "#fff",
       date: "2016-2020 • Norman, OK",
       points: [
@@ -163,10 +164,10 @@ const experiences = [
         "I also tutored Chinese.",
       ],
     },
-];
-
-const testimonials = [
-  {
+  ];
+  
+  const testimonials = [
+    {
       testimonial:
         "Smart. Driven. Jedd is a researcher, a teammate, and a craftsman who delivers inspiring work.",
       name: "Andy K.",
@@ -190,10 +191,10 @@ const testimonials = [
       company: "Microsoft",
       image: "https://companieslogo.com/img/orig/MSFT-a203b22d.png?t=1633073277",
     },
-];
-
-const projects = [
-  {
+  ];
+  
+  const projects = [
+    {
       name: "My Portfolio",
       description:
         "This website was built with React. I used ThreeJS to handle the various 3D models. I also used Framer Motion for animation and TailwindCSS for styling.",
@@ -224,7 +225,7 @@ const projects = [
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/jeddsoh/jeddsoh.github.io",
     },
     {
       name: "Affirm",
@@ -253,7 +254,7 @@ const projects = [
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/jeddsoh/jeddsoh.github.io",
     },
     {
       name: "YouVersion",
@@ -286,8 +287,8 @@ const projects = [
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/jeddsoh/jeddsoh.github.io",
     },
-];
-
-export { services, technologies, experiences, testimonials, projects };
+  ];
+  
+  export { services, technologies, experiences, testimonials, projects };

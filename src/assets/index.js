@@ -3,35 +3,25 @@ import uxui from "./uxui.svg";
 import visual from "./visual.svg";
 import backenddev from "./backenddev.svg";
 import frontend from "./frontend.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
 import githublogo from "./tech/githublogo.png";
-import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
-import adobe from "./tech/adobe.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import webflow from "./tech/webflow.png";
+import adobe from "./tech/adobe.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-import oklahoma from "./company/oklahoma.png";
+import OU from "./company/OU.png";
 import youversion from "./company/youversion.png";
 import affirm from "./company/affirm.svg";
 import frank from "./company/frank.png";
@@ -46,16 +36,11 @@ export {
   visual,
   backenddev,
   frontend,
-  backend,
-  creator,
-  mobile,
-  web,
   github,
-  githublogo,
   menu,
   close,
   css,
-  docker,
+  githublogo,
   figma,
   git,
   html,
@@ -63,16 +48,11 @@ export {
   mongodb,
   nodejs,
   reactjs,
-  webflow,
+  adobe,
   tailwind,
   typescript,
   threejs,
-  adobe,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  oklahoma,
+  OU,
   youversion,
   affirm,
   frank,

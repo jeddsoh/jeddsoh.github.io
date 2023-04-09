@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900;1000&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -55,8 +57,8 @@
 
 .cyan-pink-gradient {
   background: "#00cea8";
-  background: linear-gradient(90.13deg, #67E8F9 1.9%, #06B6D4 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #67E8F9 1.9%, #06B6D4 97.5%);
+  background: linear-gradient(90.13deg, #6DDFE4 1.9%, #083344 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #6DDFE4 1.9%, #083344 97.5%);
 }
 
 .orange-text-gradient {
@@ -112,13 +114,13 @@
   background: #ec008c; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to top,
-    #ec008c,
-    #fc6767
+    #e879f9,
+    #d946ef
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to top,
-    #ec008c,
-    #fc6767
+    #e879f9,
+    #d946ef
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
