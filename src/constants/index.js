@@ -15,14 +15,15 @@ import {
     git,
     figma,
     githublogo,
-    OU,
+    oklahoma,
     affirm,
     frank,
     youversion,
-    carrent,
-    jobit,
-    tripguide,
+    frankyou,
+    portfolio,
+    warriors,
     threejs,
+    webflow,
   } from "../assets";
   
   export const navLinks = [
@@ -93,8 +94,8 @@ import {
       icon: adobe,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "webflow",
+      icon: webflow,
     },
     {
       name: "Node JS",
@@ -154,7 +155,7 @@ import {
     {
       title: "Web Designer",
       company_name: "University of Oklahoma",
-      icon: OU,
+      icon: oklahoma,
       iconBg: "#fff",
       date: "2016-2020 • Norman, OK",
       points: [
@@ -224,40 +225,42 @@ import {
           color: "cyan-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/jeddsoh/jeddsoh.github.io",
+      image: portfolio,
+      link_name: "View project",
+      source_code_link: "https://github.com/jeddsoh/jeddsoh.github.io/",
     },
     {
-      name: "Affirm",
+      name: "Warriors for Freedom",
       description:
-        "I designed internal tooling to allow Affirm support agents to manage customer accounts more efficiently and prevent data discrepancies.",
+        "I built a new website for Warriors for Freedom, a nonprofit with the goal of preventing suicide among military veterans.",
       tags: [
         {
-          name: "ux",
+          name: "web",
           color: "cyan-text-gradient",
         },
         {
-          name: "ui",
+          name: "webflow",
           color: "cyan-text-gradient",
         },
         {
-          name: "product",
+          name: "html",
           color: "cyan-text-gradient",
         },
         {
-          name: "figma",
+          name: "css",
           color: "cyan-text-gradient",
         },
         {
-          name: "design",
+          name: "stripe",
           color: "cyan-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/jeddsoh/jeddsoh.github.io",
+      image: warriors,
+      link_name: "View project",
+      source_code_link: "https://www.warriorsforfreedom.org/",
     },
     {
-      name: "YouVersion",
+      name: "Frank Marketing Agency",
       description:
         "I designed mobile app features to help users access prayer more easily, manage their prayers better, and focus better.",
       tags: [
@@ -286,8 +289,9 @@ import {
           color: "cyan-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/jeddsoh/jeddsoh.github.io",
+      image: frankyou,
+      link_name: "View project",
+      source_code_link: "https://www.frankyou.com/",
     },
   ];
   

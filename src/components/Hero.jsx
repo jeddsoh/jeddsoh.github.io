@@ -14,7 +14,7 @@ const Hero = () => {
 
           <div className="">
             <h1 className={`${styles.heroHeadText} text-white`}>I'm <span className="text-[#6DDFE4]">Jedd Soh</span></h1>
-            <p className={`${styles.heroSubText} text-white-100 leading-relaxed lg:mt-1`}>I'm a <span className="text-cyan-950 bg-cyan-50 font-mono px-1 py-0.5">software engineer</span> committed to writing  <br className='lg:block hidden' />useful, usable, and beautiful code.</p>
+            <p className={`${styles.heroSubText} text-white-100 leading-relaxed lg:mt-1`}>I'm a <span className="text-cyan-950 bg-cyan-50 font-mono px-1 py-0.5">software developer</span> committed to writing  <br className='lg:block hidden' />useful, usable, and beautiful code.</p>
           </div>
         </div>
 

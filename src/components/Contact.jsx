@@ -41,9 +41,9 @@ const Contact = () => {
         template_p9vhhns,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Jedd Soh",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "jeddsoh@gmail.com",
           message: form.message,
         },
         hT4GUsUNB6MIDF_ua
@@ -91,7 +91,7 @@ const Contact = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your name?"
+              placeholder="John Doe"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -102,7 +102,7 @@ const Contact = () => {
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="example@gmail.com"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -113,7 +113,7 @@ const Contact = () => {
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder='What you want to say?'
+              placeholder='Type your message...'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>

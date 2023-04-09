@@ -20,15 +20,16 @@ import adobe from "./tech/adobe.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import webflow from "./tech/webflow.png";
 
-import OU from "./company/OU.png";
+import oklahoma from "./company/oklahoma.png";
 import youversion from "./company/youversion.png";
 import affirm from "./company/affirm.svg";
 import frank from "./company/frank.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import frankyou from "./frankyou.png";
+import warriors from "./warriors.png";
+import portfolio from "./portfolio.png";
 
 export {
   logo,
@@ -51,12 +52,13 @@ export {
   adobe,
   tailwind,
   typescript,
+  webflow,
   threejs,
-  OU,
+  oklahoma,
   youversion,
   affirm,
   frank,
-  carrent,
-  jobit,
-  tripguide,
+  frankyou,
+  warriors,
+  portfolio,
 };
