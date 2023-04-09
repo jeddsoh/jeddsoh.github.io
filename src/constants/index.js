@@ -1,4 +1,14 @@
 import {
+  backenddev,
+  uxui,
+  visual,
+  frontend,
+  adobe,
+  githublogo,
+  oklahoma,
+  affirm,
+  frank,
+  youversion,
   mobile,
   backend,
   creator,
@@ -42,20 +52,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Front End Developer",
+    icon: frontend,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Back End Developer",
+    icon: backenddev,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "UX/UI Designer",
+    icon: uxui,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Visual Designer",
+    icon: visual,
   },
 ];
 
@@ -81,12 +91,20 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "githublogo",
+    icon: reactjs,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
+  },
+    {
+    name: "figma",
+    icon: figma,
+  },
+    {
+    name: "adobe",
+    icon: adobe,
   },
   {
     name: "Node JS",
@@ -104,162 +122,183 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "UX/UI Designer",
+    company_name: "affirm",
     icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    iconBg: "#fff",
+    date: "2022 • San Francisco (Remote)",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed internal tooling to decrease servicing errors, improve the support agent experience, and lower customer frustration.",
+      "This was a 6-month contract position to complete new internal software projects.",
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    company_name: "Frank – Digital Marketing Agency",
+    icon: frank,
+    iconBg: "#fff",
+    date: "2022 • Oklahoma City",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed, developed, and maintained websites sites for various clients.",
+      "Led operations and introduced new processes and tools company-wide, such as Figma and Notion implementation.",
+      "Migrated difficult Wordpress sites into client-friendly Webflow builds.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+ {
+    title: "Mobile Design Intern",
+    company_name: "YouVersion (The Bible App)",
+    icon: youversion,
+      iconBg: "#fff",
+      date: "2021 • Edmond, OK",
+      points: [
+        "Redesigned critical app features.",
+        "Redesigned critical interactions within the app based on results from usability testing, increasing a major feature’s adoption by 141% (affecting 300,000+ daily users).",
+        "Contributed to design ops and efforts in research, prototyping, usability testing, and design systems.",
+        "Assisted in localization for 100+ languages, including many underserved languages, leading to increased accessibility.",
+      ],
+    },
+    {
+      title: "Web Designer",
+      company_name: "University of Oklahoma",
+      icon: OU,
+      iconBg: "#fff",
+      date: "2016-2020 • Norman, OK",
+      points: [
+        "Produced web assets and visuals for the Department of Modern Languages.",
+        "Developed front-end web interfaces.",
+        "Unified department website to adhere to university web and branding standards.",
+        "I also tutored Chinese.",
+      ],
+    },
 ];
 
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+      testimonial:
+        "Smart. Driven. Jedd is a researcher, a teammate, and a craftsman who delivers inspiring work.",
+      name: "Andy K.",
+      designation: "Principal Product Designer",
+      company: "YouVersion",
+      image: "https://play-lh.googleusercontent.com/03u7ovx5WUvmOWJDIxlNYaQY60hgcNzyRKQ5Bugex_zl-UXrxxXY4ROHEm179xly9OFr",
+    },
+    {
+      testimonial:
+        "Jedd is an excellent thought partner with the masterful ability to translate your thoughts to delightful concepts.",
+      name: "Gamaliel O.",
+      designation: "Product Manager",
+      company: "Affirm",
+      image: "https://site-images.similarcdn.com/url?url=https%3A%2F%2Fplay-lh.googleusercontent.com%2FPKjUYM6dvs8MBevibaaTlvrdBu3zFGS2eKx0ggGi7aXvrhiq_Ee-CxZyJVO0FRiCwm8G&h=910789bfaf89ecb1104c8da1939067dd91c42b348596d1fdf49eb98a75e011db",
+    },
+    {
+      testimonial:
+        "No matter the task, Jedd always goes the extra step. I’m confident that any team he joins will benefit.",
+      name: "Sahithi B.",
+      designation: "Software Engineer",
+      company: "Microsoft",
+      image: "https://companieslogo.com/img/orig/MSFT-a203b22d.png?t=1633073277",
+    },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+      name: "My Portfolio",
+      description:
+        "This website was built with React. I used ThreeJS to handle the various 3D models. I also used Framer Motion for animation and TailwindCSS for styling.",
+      tags: [
+        {
+          name: "react",
+          color: "cyan-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "cyan-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "cyan-text-gradient",
+        },
+        {
+          name: "vite",
+          color: "cyan-text-gradient",
+        },
+        {
+          name: "threejs",
+          color: "cyan-text-gradient",
+        },
+        {
+          name: "framermotion",
+          color: "cyan-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Affirm",
+      description:
+        "I designed internal tooling to allow Affirm support agents to manage customer accounts more efficiently and prevent data discrepancies.",
+      tags: [
+        {
+          name: "ux",
+          color: "cyan-text-gradient",
+        },
+        {
+          name: "ui",
+          color: "cyan-text-gradient",
+        },
+        {
+          name: "product",
+          color: "cyan-text-gradient",
+        },
+        {
+          name: "figma",
+          color: "cyan-text-gradient",
+        },
+        {
+          name: "design",
+          color: "cyan-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "YouVersion",
+      description:
+        "I designed mobile app features to help users access prayer more easily, manage their prayers better, and focus better.",
+      tags: [
+        {
+          name: "mobile",
+          color: "cyan-text-gradient",
+        },
+        {
+          name: "ux",
+          color: "cyan-text-gradient",
+        },
+        {
+          name: "ui",
+          color: "cyan-text-gradient",
+        },
+        {
+          name: "product",
+          color: "cyan-text-gradient",
+        },
+        {
+          name: "design",
+          color: "cyan-text-gradient",
+        },
+        {
+          name: "figma",
+          color: "cyan-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+    },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
