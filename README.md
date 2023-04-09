@@ -1,6 +1,6 @@
 # Jedd Soh | Software Engineer
 > My software development portfolio.
-> [Visit the Website](https://jeddsoh.github.io/)
+> [Visit the Website](https://jeddsoh.com/){:target="_blank"}
 
 ## Tech Stack
 > What I used to build this website.
