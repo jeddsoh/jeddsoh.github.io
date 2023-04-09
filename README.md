@@ -1,6 +1,7 @@
 # Jedd Soh | Software Engineer
 > My software development portfolio.
 > [Visit the Website](https://jeddsoh.com/)
+![jeddsoh-portfolio](https://user-images.githubusercontent.com/87773398/230783208-f21659d3-8a72-4cf0-90d5-e235322171d1.png)
 
 ## Tech Stack
 > What I used to build this website.
