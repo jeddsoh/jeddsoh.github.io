@@ -54,7 +54,7 @@ const ProjectCard = ({
           <p className='mt-2 leading-relaxed text-white text-[14px]'>{description}</p>
           <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className='bg-cyan-900 px-3 py-1 inline-flex items-center gap-2 align-middle text-cyan-300 cursor-pointer rounded-md mt-4'
+              className='bg-cyan-900 px-3 py-1 inline-flex items-center gap-2 align-middle text-cyan-300 cursor-pointer hover:underline rounded-md mt-4'
             >
               <p>{link_name}</p>
               <img

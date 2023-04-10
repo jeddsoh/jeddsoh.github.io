@@ -21,6 +21,8 @@ import {
     youversion,
     frankyou,
     portfolio,
+    agentportal,
+    prayer,
     warriors,
     threejs,
     webflow,
@@ -236,6 +238,34 @@ import {
       image: frankyou,
       link_name: "View website",
       source_code_link: "https://www.frankyou.com/",
+    },
+    {
+      name: "Affirm",
+      description:
+        "I designed new internal tooling to help Affirm support agents manage customers more efficiently.",
+      tags: [
+        {
+          name: "Product Design",
+          color: "cyan-text-gradient",
+        },
+      ],
+      image: agentportal,
+      link_name: "View designs",
+      source_code_link: "https://www.affirm.com/",
+    },
+    {
+      name: "YouVersion Prayer",
+      description:
+        "I designed mobile app features for the Bible App to let users better manage and focus on their prayers.",
+      tags: [
+        {
+          name: "Product Design",
+          color: "cyan-text-gradient",
+        },
+      ],
+      image: prayer,
+      link_name: "View designs",
+      source_code_link: "https://www.youversion.church/",
     },
   ];
   

@@ -30,6 +30,8 @@ import frank from "./company/frank.png";
 import frankyou from "./frankyou.png";
 import warriors from "./warriors.png";
 import portfolio from "./portfolio.png";
+import agentportal from "./agentportal.png";
+import prayer from "./prayer.png";
 
 import chevronright from "./chevronright.svg";
 
@@ -64,5 +66,7 @@ export {
   frankyou,
   warriors,
   portfolio,
+  agentportal,
+  prayer,
   chevronright,
 };
