@@ -198,35 +198,15 @@ import {
     {
       name: "My Portfolio",
       description:
-        "This website was built with React. I used ThreeJS to handle the various 3D models. I also used Framer Motion for animation and TailwindCSS for styling.",
+        "I built this site with React. I used ThreeJS for 3D visuals. I also used Framer Motion for animation and TailwindC for styling.",
       tags: [
         {
-          name: "react",
-          color: "cyan-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "cyan-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "cyan-text-gradient",
-        },
-        {
-          name: "vite",
-          color: "cyan-text-gradient",
-        },
-        {
-          name: "threejs",
-          color: "cyan-text-gradient",
-        },
-        {
-          name: "framermotion",
+          name: "React Development",
           color: "cyan-text-gradient",
         },
       ],
       image: portfolio,
-      link_name: "View project",
+      link_name: "View code on GitHub",
       source_code_link: "https://github.com/jeddsoh/jeddsoh.github.io/",
     },
     {
@@ -235,28 +215,12 @@ import {
         "I built a new website for Warriors for Freedom, a nonprofit with the goal of preventing suicide among military veterans.",
       tags: [
         {
-          name: "web",
-          color: "cyan-text-gradient",
-        },
-        {
-          name: "webflow",
-          color: "cyan-text-gradient",
-        },
-        {
-          name: "html",
-          color: "cyan-text-gradient",
-        },
-        {
-          name: "css",
-          color: "cyan-text-gradient",
-        },
-        {
-          name: "stripe",
+          name: "Webflow Development",
           color: "cyan-text-gradient",
         },
       ],
       image: warriors,
-      link_name: "View project",
+      link_name: "View website",
       source_code_link: "https://www.warriorsforfreedom.org/",
     },
     {
@@ -265,32 +229,12 @@ import {
         "I designed mobile app features to help users access prayer more easily, manage their prayers better, and focus better.",
       tags: [
         {
-          name: "mobile",
-          color: "cyan-text-gradient",
-        },
-        {
-          name: "ux",
-          color: "cyan-text-gradient",
-        },
-        {
-          name: "ui",
-          color: "cyan-text-gradient",
-        },
-        {
-          name: "product",
-          color: "cyan-text-gradient",
-        },
-        {
-          name: "design",
-          color: "cyan-text-gradient",
-        },
-        {
-          name: "figma",
+          name: "Webflow Development",
           color: "cyan-text-gradient",
         },
       ],
       image: frankyou,
-      link_name: "View project",
+      link_name: "View website",
       source_code_link: "https://www.frankyou.com/",
     },
   ];

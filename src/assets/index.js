@@ -31,6 +31,9 @@ import frankyou from "./frankyou.png";
 import warriors from "./warriors.png";
 import portfolio from "./portfolio.png";
 
+import chevronright from "./chevronright.svg";
+
+
 export {
   logo,
   uxui,
@@ -61,4 +64,5 @@ export {
   frankyou,
   warriors,
   portfolio,
+  chevronright,
 };

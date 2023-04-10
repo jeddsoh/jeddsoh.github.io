@@ -7,6 +7,8 @@ import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
+import { chevronright } from '../assets';
+
 const ProjectCard = ({
   index,
   name,
@@ -24,27 +26,42 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-xl sm:w-[360px] w-full'
+        className='bg-cyan-950 rounded-xl sm:w-[360px] w-full'
       >
         <div className='relative w-full h-[230px]'>
           <img
             src={image}
             alt='project_image'
-            className='w-full h-full object-cover rounded-md'
+            className='w-full h-full object-cover rounded-t-md'
           />
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
           </div>
         </div>
 
-        <div className='mt-5'>
+        <div className='p-5'>
+        <div className='mb-2 flex flex-wrap gap-2 '>
+          {tags.map((tag) => (
+            <p
+              key={`${name}-${tag.name}`}
+              className={`font-semibold tracking-wide text-cyan-300 text-[13px] uppercase`}
+            >
+              {tag.name}
+            </p>
+          ))}
+        </div>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-          <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+          <p className='mt-2 leading-relaxed text-white text-[14px]'>{description}</p>
           <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className='text-cyan-300 cursor-pointer underline mt-4'
+              className='bg-cyan-900 px-3 py-1 inline-flex items-center gap-2 align-middle text-cyan-300 cursor-pointer rounded-md mt-4'
             >
               <p>{link_name}</p>
+              <img
+            src={chevronright}
+            alt='chevron_right'
+            className='text-cyan-300 w-[16px] h-[16px] object-cover rounded-t-md'
+          />
             </div>
         </div>
 
