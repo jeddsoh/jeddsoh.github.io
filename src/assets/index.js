@@ -32,6 +32,8 @@ import warriors from "./warriors.png";
 import portfolio from "./portfolio.png";
 import agentportal from "./agentportal.png";
 import prayer from "./prayer.png";
+import tasks from "./tasks.png";
+import wsa from "./wsa.png";
 
 import chevronright from "./chevronright.svg";
 
@@ -69,4 +71,6 @@ export {
   agentportal,
   prayer,
   chevronright,
+  tasks,
+  wsa,
 };

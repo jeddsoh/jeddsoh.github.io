@@ -4,12 +4,12 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { github } from '../assets';
 import { SectionWrapper } from '../hoc';
-import { projects } from '../constants';
+import { smallProjects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
 import { chevronright } from '../assets';
 
-const ProjectCard = ({
+const SmallCard = ({
   index,
   name,
   description,
@@ -26,9 +26,9 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-cyan-950 rounded-xl sm:w-[360px] w-full'
+        className='bg-cyan-950 rounded-xl sm:w-[267px] w-full'
       >
-        <div className='relative w-full h-[230px]'>
+        <div className='relative w-full sm:h-[160px] h-[230px]'>
           <img
             src={image}
             alt='project_image'
@@ -54,7 +54,7 @@ const ProjectCard = ({
           <p className='mt-2 leading-relaxed text-white text-[14px]'>{description}</p>
           <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className='bg-cyan-900 px-3 py-1 inline-flex items-center gap-2 align-middle text-cyan-300 cursor-pointer hover:underline rounded-md mt-4'
+              className='inline-flex items-center gap-2 align-middle text-cyan-300 cursor-pointer hover:underline rounded-md mt-4'
             >
               <p>{link_name}</p>
               <img
@@ -64,37 +64,26 @@ const ProjectCard = ({
           />
             </div>
         </div>
-
-        {/* <div className='mt-4 flex flex-wrap gap-2'>
-          {tags.map((tag) => (
-            <p
-              key={`${name}-${tag.name}`}
-              className={`text-[14px] ${tag.color}`}
-            >
-              #{tag.name}
-            </p>
-          ))}
-        </div> */}
       </Tilt>
     </motion.div>
   );
 };
 
-const Works = () => {
+const Small = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Selected Projects</h2>
+        <h2 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">Other</h2>
       </motion.div>
 
       <div className='mt-20 flex flex-wrap gap-7'>
-        {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
+        {smallProjects.map((smallProject, index) => (
+          <SmallCard key={`smallProject-${index}`} index={index} {...smallProject} />
         ))}
       </div>
     </>
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Small, "");

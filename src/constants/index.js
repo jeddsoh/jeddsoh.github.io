@@ -26,6 +26,8 @@ import {
     warriors,
     threejs,
     webflow,
+    tasks,
+    wsa,
   } from "../assets";
   
   export const navLinks = [
@@ -200,10 +202,10 @@ import {
     {
       name: "My Portfolio",
       description:
-        "I built this site with React. I used ThreeJS for 3D visuals. I also used Framer Motion for animation and TailwindC for styling.",
+        "I built this site with React. I used ThreeJS for 3D visuals. I also used Framer Motion for animation and Tailwind for styling.",
       tags: [
         {
-          name: "React Development",
+          name: "React",
           color: "cyan-text-gradient",
         },
       ],
@@ -217,7 +219,7 @@ import {
         "I built a new website for Warriors for Freedom, a nonprofit with the goal of preventing suicide among military veterans.",
       tags: [
         {
-          name: "Webflow Development",
+          name: "Webflow",
           color: "cyan-text-gradient",
         },
       ],
@@ -228,10 +230,10 @@ import {
     {
       name: "Frank Marketing Agency",
       description:
-        "I designed mobile app features to help users access prayer more easily, manage their prayers better, and focus better.",
+        "I migrated Frank's website from a clunky Wordpress build to a more usable, stylized, and SEO-friendly Webflow build.",
       tags: [
         {
-          name: "Webflow Development",
+          name: "Webflow",
           color: "cyan-text-gradient",
         },
       ],
@@ -240,12 +242,26 @@ import {
       source_code_link: "https://www.frankyou.com/",
     },
     {
+      name: "WSA",
+      description:
+        "WSA is a cell phone repair company. I developed their new site in Webflow to address the design limitations of Shopify.",
+      tags: [
+        {
+          name: "Webflow",
+          color: "cyan-text-gradient",
+        },
+      ],
+      image: wsa,
+      link_name: "View website",
+      source_code_link: "https://www.yourwsa.com/",
+    },
+    {
       name: "Affirm",
       description:
         "I designed new internal tooling to help Affirm support agents manage customers more efficiently.",
       tags: [
         {
-          name: "Product Design",
+          name: "UX/UI Design",
           color: "cyan-text-gradient",
         },
       ],
@@ -254,12 +270,12 @@ import {
       source_code_link: "https://www.affirm.com/",
     },
     {
-      name: "YouVersion Prayer",
+      name: "The Bible App",
       description:
-        "I designed mobile app features for the Bible App to let users better manage and focus on their prayers.",
+        "I designed mobile app features to help users access prayer more easily, manage their prayers better, and focus better.",
       tags: [
         {
-          name: "Product Design",
+          name: "UX/UI Design",
           color: "cyan-text-gradient",
         },
       ],
@@ -268,5 +284,22 @@ import {
       source_code_link: "https://www.youversion.church/",
     },
   ];
+
+  const smallProjects = [
+    {
+      name: "Tasks",
+      description:
+        "A simple to-do list.",
+      tags: [
+        {
+          name: "HTML CSS JAVASCRIPT",
+          color: "cyan-text-gradient",
+        },
+      ],
+      image: tasks,
+      link_name: "Try it out",
+      source_code_link: "https://jeddsoh-tasks.netlify.app/",
+    },
+  ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, smallProjects };
