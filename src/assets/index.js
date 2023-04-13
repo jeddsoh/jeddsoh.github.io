@@ -34,6 +34,8 @@ import agentportal from "./agentportal.png";
 import prayer from "./prayer.png";
 import tasks from "./tasks.png";
 import wsa from "./wsa.png";
+import linkedin from "./linkedin.svg"
+import email from "./email.svg"
 
 import chevronright from "./chevronright.svg";
 
@@ -73,4 +75,6 @@ export {
   chevronright,
   tasks,
   wsa,
+  linkedin,
+  email
 };

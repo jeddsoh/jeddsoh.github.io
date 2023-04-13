@@ -32,7 +32,7 @@ const ProjectCard = ({
           <img
             src={image}
             alt='project_image'
-            className='w-full h-full object-cover rounded-t-md'
+            className='w-full h-full object-cover rounded-t-xl'
           />
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>

@@ -6,125 +6,38 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { github } from "../assets";
+import { linkedin } from "../assets";
+import { email } from "../assets";
 
-// template_p9vhhns
-// service_0mcaeeo
-// hT4GUsUNB6MIDF_ua
 
 const Contact = () => {
-  const formRef = useRef();
-  const [form, setForm] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-
-  const [loading, setLoading] = useState(false);
-
-  const handleChange = (e) => {
-    const { target } = e;
-    const { name, value } = target;
-
-    setForm({
-      ...form,
-      [name]: value,
-    });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setLoading(true);
-
-    emailjs
-      .send(
-        service_0mcaeeo,
-        template_p9vhhns,
-        {
-          from_name: form.name,
-          to_name: "Jedd Soh",
-          from_email: form.email,
-          to_email: "jeddsoh@gmail.com",
-          message: form.message,
-        },
-        hT4GUsUNB6MIDF_ua
-      )
-      .then(
-        () => {
-          setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
-
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
-        },
-        (error) => {
-          setLoading(false);
-          console.error(error);
-
-          alert("Something went wrong. Please try again.");
-        }
-      );
-  };
-
   return (
     <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
+      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden mb-20`}
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] p-8 rounded-2xl'
       >
-        <p className={styles.sectionSubText}>Leave a message</p>
+        <p className={styles.sectionSubText}>Can't wait to meet you</p>
         <h3 className={styles.sectionHeadText}>Contact</h3>
+        <div className="mt-10 inline-block">
+          <a className="flex items-center gap-4 hover:underline hover:text-cyan-400" href="https://github.com/jeddsoh" target="_blank" rel="noopener noreferrer">
+            <img src={github} alt="github" className='w-8 h-8 rounded-sm object-cover' />
+            <p>github.com/jeddsoh</p>
+          </a>
+          <a className="flex items-center gap-4 mt-4 hover:underline hover:text-cyan-400" href="https://www.linkedin.com/in/jeddsoh/" target="_blank" rel="noopener noreferrer">
+            <img src={linkedin} alt="linkedin" className='w-8 h-8 rounded-sm object-cover' />
+            <p>linkedin.com/in/jeddsoh</p>
+          </a>
+          <a className="flex items-center gap-4 mt-4 hover:underline hover:text-cyan-400" href="mailto:jeddsoh@gmail.com" target="_blank" rel="noopener noreferrer">
+            <img src={email} alt="email" className='w-8 h-8 rounded-sm object-cover' />
+            <p>jeddsoh@gmail.com</p>
+          </a>
+        </div>
 
-        <form
-          ref={formRef}
-          onSubmit={handleSubmit}
-          className='mt-12 flex flex-col gap-8'
-        >
-          <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Name</span>
-            <input
-              type='text'
-              name='name'
-              value={form.name}
-              onChange={handleChange}
-              placeholder="John Doe"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
-            />
-          </label>
-          <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your email</span>
-            <input
-              type='email'
-              name='email'
-              value={form.email}
-              onChange={handleChange}
-              placeholder="example@gmail.com"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
-            />
-          </label>
-          <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Message</span>
-            <textarea
-              rows={7}
-              name='message'
-              value={form.message}
-              onChange={handleChange}
-              placeholder='Type your message...'
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
-            />
-          </label>
-
-          <button
-            type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
-          >
-            {loading ? "Sending..." : "Send"}
-          </button>
-        </form>
+      
       </motion.div>
 
       <motion.div

@@ -26,13 +26,13 @@ const SmallCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-cyan-950 rounded-xl sm:w-[267px] w-full'
+        className='bg-cyan-950 rounded-xl sm:w-[360px] w-full'
       >
-        <div className='relative w-full sm:h-[160px] h-[230px]'>
+        <div className='relative w-full sm:h-[230px] h-[230px]'>
           <img
             src={image}
             alt='project_image'
-            className='w-full h-full object-cover rounded-t-md'
+            className='w-full h-full object-cover rounded-t-xl'
           />
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>

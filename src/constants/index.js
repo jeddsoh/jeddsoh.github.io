@@ -289,7 +289,7 @@ import {
     {
       name: "Tasks",
       description:
-        "A simple to-do list.",
+        "A simple to-do list built in vanilla JavaScript, HTML, and CSS.",
       tags: [
         {
           name: "HTML CSS JAVASCRIPT",
